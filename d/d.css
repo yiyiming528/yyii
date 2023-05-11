@@ -1,0 +1,38 @@
+a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: helvetica;
+    font-size: 24pt;
+    color: black;
+}
+.element {
+    animation: breathe 1s ease-out infinite alternate;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+.element {
+    transform: rotate(-30deg);
+    transform-origin: bottom left;
+}
+.element {
+    width: 200px;
+    height: 100px;
+    border-radius: 100px / 50px;
+    background-color: rgb(160, 246, 220);
+}
+div {
+    margin-bottom: 20px;
+}
+
+div {
+    display: block;
+}
+@keyframes breathe {
+0% {
+    transform: scale(1, 1);
+}
+100% {
+    transform: scale(4, 4);
+}}

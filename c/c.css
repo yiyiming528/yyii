@@ -1,0 +1,61 @@
+a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: helvetica;
+    font-size: 24pt;
+    color: black;
+}
+.element {
+    left: 100px;
+  top: -150px;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(181, 249, 255);
+    animation: 
+      nudge 5s linear infinite alternate;
+    border-radius: 0;
+  }
+  .element1 {
+    right: 100px;
+    top: -150px;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(181, 255, 246);
+    animation: 
+      nudge 5s linear infinite alternate;
+    border-radius: 0;
+  }
+
+  
+  @keyframes nudge {
+    0% {
+      transform: translate(0, 0);
+    }
+    
+    30% {
+      transform: translate(0, 350px);
+    }
+    
+    60% {
+      transform: translate(0, 700px);
+    }
+    100% {
+       transform: translate(0, 100px);
+    }
+  }
+  
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
