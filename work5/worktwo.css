@@ -1,0 +1,33 @@
+p{
+    font-family: helvetica;
+    font-size: 10pt;
+    font-style: italic;
+    color:rgb(255, 0, 64);
+}
+p:hover {
+    color:rgb(255, 0, 64);
+    background-color: white;
+    width: 100px;
+}
+h1{
+    font-family: helvetica;
+    font-size: 48pt;
+    font-style:normal
+}
+a{
+    /* color:rgb(255, 87, 123); */
+    /* background-color: white; */
+    width: 100px;
+}
+body {
+    background-color: rgba(131, 248, 113, 0.527);
+}
+.ab {
+    color:rgb(254, 145, 169);
+}
+.dd {
+    color:rgb(255, 87, 123);
+}
+.ff {
+    color:rgb(251, 26, 75);
+}

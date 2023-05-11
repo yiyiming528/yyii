@@ -1,0 +1,27 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: rgb(248, 9, 93);
+    /* border: 1px solid black; */
+    background-color: white;
+}
+p:hover {
+    color: aqua;
+}
+h1{
+    font-family: helvetica;
+    font-size: 24pt;
+    font-style:normal
+    
+}
+a{
+    color: rgb(248, 9, 93);
+    /* border: 1px solid black; */
+    background-color: white;
+}
+body{
+    background-color: rgba(251, 244, 39, 0.32);
+}
+hr {
+    color: aqua;
+}

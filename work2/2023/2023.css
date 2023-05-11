@@ -1,0 +1,30 @@
+video {
+    width: 800px;
+    }
+   
+p{
+    font-family: helvetica;
+    font-size: 10pt;
+    font-style: italic;
+    color:black;
+}
+p:hover {
+    color: rgb(0, 81, 255);
+}
+h1{
+    font-family: helvetica;
+    font-size: 48pt;
+    font-style:normal
+}
+a{
+    color:rgb(0, 81, 255);
+}
+body {
+    background-color: rgb(253, 194, 2);
+}
+hr {
+bcolor: rgb(0, 81, 255);
+height: 10px;
+background-color:white ;
+}
+   

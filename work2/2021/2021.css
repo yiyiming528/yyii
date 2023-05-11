@@ -1,0 +1,23 @@
+video {
+width: 800px;
+}
+p{
+    font-family: helvetica;
+    font-size: 10pt;
+    font-style: italic;
+    color:rgb(75, 242, 239);
+}
+p:hover {
+    color: aqua;
+}
+h1{
+    font-family: helvetica;
+    font-size: 48pt;
+    font-style:normal
+}
+a{
+    color: rgb(30, 168, 168);
+}
+.abab {
+    font-style: normal;
+}

@@ -1,0 +1,26 @@
+video {
+    width: 800px;
+    }
+    p{
+        font-family: helvetica;
+        font-size: 10pt;
+        font-style: italic;
+        color:black;
+    }
+    p:hover {
+        color: aqua;
+    }
+    h1{
+        font-family: helvetica;
+        font-size: 48pt;
+        font-style:normal
+    }
+    a{
+        color:black;
+    }
+    .abab {
+        font-style: normal;
+    }
+    body {
+        background-color: antiquewhite;
+    }
