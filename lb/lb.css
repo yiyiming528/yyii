@@ -12,7 +12,7 @@ a {
     width: 600px;
     height: 450px;
     margin: 50px auto;
-    border: 1px inset black;
+    /* border: 1px inset black; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 80px auto 80px;
@@ -29,8 +29,8 @@ div {
     grid-row: 1 / 2;
 }
 .item {
-    background: beige;
-    border: 1px inset black;
+    background: rgb(95, 227, 250);
+    /* border: 1px inset black; */
     padding: 10px;
     font-size: 30px;
     font-style: italic;
@@ -45,8 +45,8 @@ div {
 }
 
 .item {
-    background: beige;
-    border: 1px inset black;
+    background: rgb(253, 202, 233);
+    /* border: 1px inset black; */
     padding: 10px;
     font-size: 30px;
     font-style: italic;
