@@ -1,0 +1,82 @@
+a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: helvetica;
+    font-size: 24pt;
+    color: black;
+}
+.container {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 80%;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    /* background: beige; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 70% 10%; 
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* or: */
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
+     z-index: -1;
+  }
+  div {
+    display: block;
+  }
+  
+  .box0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgba(255, 0, 0, 0.439);
+    border: 1px solid rgb(234, 23, 23);
+    font-size: 30px;
+    font-style: italic;
+}
+.box1 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgba(7, 255, 189, 0.444);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-style: italic;
+}
+.box3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(11, 207, 0);
+    font-size: 30px;
+    font-style: italic;
+}
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color:rgba(0, 0, 0, 0.486);
+    border: 1px solid black;
+    font-size: 30px;
+    font-style: italic;
+}
+.box4 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color:rgba(0, 47, 255, 0.226);
+    border: 1px solid rgb(25, 217, 255);
+    font-size: 30px;
+    font-style: italic;
+}
